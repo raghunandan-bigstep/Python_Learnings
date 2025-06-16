@@ -17,7 +17,5 @@ try:
     else:
         print(f'"{string1}" and "{string2}" are NOT anagrams.')
 
-except KeyboardInterrupt:
-    print("\nInput interrupted by user.")
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
